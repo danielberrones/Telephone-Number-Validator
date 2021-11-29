@@ -26,4 +26,4 @@ return false;
 }
 
 
-telephoneCheck("555-555-5555")
+telephoneCheck("555-555-5555") // true

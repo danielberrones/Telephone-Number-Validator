@@ -8,7 +8,7 @@ function telephoneCheck(str) {
                 /1 \d{3}-\d{3}-\d{4}/ig];
   let falseRe = [/\(\d{10}\)/ig, 
                 /(0|2|-1) \(\d{3}\) \d{3}-\d{4}/ig, 
-                /\d{11}/ig, /2\(\d{3}\)\d{3}-\d{4}/ig]
+                /\d{11}/ig, /2\(\d{3}\)\d{3}-\d{4}/ig];
      
 for (let i = 0; i < falseRe.length; i++) {
   if (str.match(falseRe[i])) {

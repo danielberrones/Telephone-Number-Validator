@@ -1,6 +1,7 @@
 # Telephone-Number-Validator
 
-https://freecodecamp.org/
+JavaScript Algorithms and Data Structure
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 
 Return true if the passed string looks like a valid US phone number.
 
